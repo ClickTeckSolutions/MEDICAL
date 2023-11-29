@@ -1,0 +1,335 @@
+body{opacity: -10px;
+    background-position: center;
+    height: auto;
+    background-color: rgb(247, 247, 240);
+}
+.Parent{
+    background-image: url(./Rectangle\ 2.jpg);
+    height: 500px;
+    width: 100%;
+    
+}
+.Parent .Parent2{
+    height: 500px;
+    width: 100%;
+    opacity: 0.8;
+    background-size: cover;
+    background-image: url(./Rectangle\ 3.png) ;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+}
+header img{ height: 100%;
+    margin-left: 5rem;
+    cursor: pointer;
+    }
+nav{
+    display: flex;
+    
+    
+  }
+a{ text-decoration: none;
+    color: white;
+
+}
+a .Home{ color: blue;
+
+}
+ul{ margin-left: 10rem;
+display: flex; 
+list-style: none;
+cursor: pointer;
+}
+
+li{ display: inline-block;
+    padding: 0px 20px;    
+}
+
+.content{
+    color: white;
+    text-align: center;
+    justify-content: center;
+   margin-top: 10rem;
+}
+button{
+    background: blue;
+   color: white;
+   border: none;
+   font-size:15px ;
+   padding: 10px ; 
+   height: 3rem;
+   width: 10rem;
+}
+.object{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center; 
+    background-color: white;
+    padding-top: 5rem ;
+    padding-bottom: 5rem;
+}
+.object b{display: flex;
+    color: rgb(0, 153, 255);
+    /* text-align: center;
+    justify-content: center;  */
+}
+
+.first{
+    text-align: center;
+    justify-content: center;
+}
+.first img{ align-items: center;
+    justify-content: center;
+    height: 50px; ;
+    width:50px ;
+}
+.Departments{
+     position: relative;
+    background-color: #f7f7f2;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.Departments p{ display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.Departments-Gallary{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+    grid: template rows 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center; 
+    margin: 1rem;   
+}
+
+.Gallary2.active{
+    background-color: blue ;
+    
+}
+.Gallary2.active {
+    color: rgb(253, 252, 252);
+}
+.Gallary2 {
+    color: rgb(7, 4, 190);
+
+}
+.Gallary2{display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+   background: white;
+    height: 180px;
+    width: 100%;
+}
+.Gallary2 img{padding-top: 1rem;
+    height: 50px; ;
+    width:50px ;
+}
+.Our-Services{display: flex;
+    align-items: center;
+    justify-content: center;
+  background: white; 
+}
+.Services{ display: flex;
+    background: white;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;   
+}
+.Services1{
+    border-color: blue;
+    border-style: solid;
+    border-radius: 1rem;
+    height: 100%;
+    padding-left: 1rem;
+     padding-top: 2rem;
+}
+.Services1.active {
+    background: blue;
+     color: white;
+}
+.Services1.icon img{
+    height: 20px;
+    width:20px ;
+}
+li{
+    margin-top: 2rem;  
+}
+.Questions{display: flex;
+     align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+}
+.Questions1{
+    height: 600px;
+    width: 50%;
+}
+.Questions2{
+    height: 600px;
+    width: 50%;
+    background: rgb(253, 253, 253);
+}
+.Questions1 .drop{ display: flex;
+    border-radius: 1rem;
+    background: white;
+    color: blue;
+    margin: 1rem;
+    width: 400px;
+    border: solid;
+    justify-content: space-between;
+}
+.Our-Specialists{
+    height: 600px;
+    background: white;
+    padding-top: 2rem;
+}
+h2{display: flex; 
+   align-items: center;
+   justify-content: center;
+}
+.Specialists1{
+    border-radius: 1rem;
+    height: 500PX;
+    background: rgb(255, 255, 255);
+    border: solid blue; 
+}
+.Specialists1 img{ 
+    border-radius: 1rem;
+    border:  blue;
+}
+.Specialists{display: flex;
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.headline{display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.headline p{color: blue;
+}
+.testimony{  height: 250px;
+    width: 100%;
+    background: rgb(255, 136, 0);
+}
+.testimony-image{
+    color: red;
+    height:8rem ;
+    width: 50%; 
+}
+.detail {display: flex;
+    height: 400px;
+    width: 100%;
+    background: bisque;  
+}
+.detail img{ 
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Book-Appointment{
+    display: flex;
+    height: 600px;
+    width: 100%;    
+}
+.Book-Appointment image{
+    height: 500px;
+    width: 100px;       
+}
+.Book-Appointment img{
+    height: 600px;
+    margin-left: 3rem;
+}
+.Appointment-form{display: flex;
+    height: 500px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+     align-items: center;
+   justify-content: center;
+   font-size: 20px;
+}
+input{width: 500px;
+    height: 2rem;
+    border-radius: 10px;
+    border-color: blue;
+    margin: 1rem 0rem;
+}
+.message input{
+    padding-bottom: 6rem;
+}
+.map{height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.map img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contact{ 
+    background: white;
+    height: 300px;
+    width: 100%;
+}
+.Contact .Contact-Usimg{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    justify-content: space-between; 
+    position: relative;  
+}
+.Contact .Contact-Usimg .Contact1 .image {
+     display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.footer{ display: flex;
+    height: 5rem;
+    width: 100%;
+    background: blue;
+    justify-content: space-between;
+    color: white;
+}
+.footer .Mediclab{
+    margin: 2rem;
+    margin-left: 8rem;    
+}
+.footer .footer-image{ 
+margin-right: 5rem; 
+}
+.footer .footer-image img{
+    height: 20px;
+    width: 20px;
+   margin: 2rem;
+}
+
+
